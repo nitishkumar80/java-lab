@@ -1,0 +1,18 @@
+interface Printable{  
+void print();  
+}  
+interface Showable{  
+void print();  
+}    
+class intf implements Printable, Showable{  
+public void print()
+{
+System.out.println("Hello");
+}  
+public static void main(String args[])
+{  
+intf obj = new intf();  
+obj.print();  
+ }  
+}  
+
